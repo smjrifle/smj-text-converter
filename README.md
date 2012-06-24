@@ -16,7 +16,7 @@ Save it at tc.sh
 Change its permission chmod u+x tc.sh
 now you can double click the file tc.sh to execute it.
 
-You can run the file /App/Smjrife Text Converter.jar in windows or /App/Smjrife_Text_Converter/tc.sh
+You can run the file /App/Smjrife Text Converter.jar in windows or /App/Smjrife_Text_Converter/tc.sh on Linux
 
 You can also try
 Find the .jar file in the File Browser
