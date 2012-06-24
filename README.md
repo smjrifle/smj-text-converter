@@ -2,3 +2,26 @@ smj-text-converter
 ==================
 
 Smjrifle Text Converter
+
+For Windows run the Smjrife Text Converter.jar
+
+For Linux you can run [ java -jar "Smjrife Text Converter.jar" ] in the terminal. Make sure you have executable permission.
+
+You can add executable permission with this command [ chmod u+x "Smjrife Text Converter.jar" ]
+
+If you want to open the file on double click, you can create a shell script.
+In any editor [vi, nano, gedit] add the following lines
+java -jar "Smjrife Text Converter.jar"
+Save it at tc.sh
+Change its permission chmod u+x tc.sh
+now you can double click the file tc.sh to execute it.
+
+You can also try
+Find the .jar file in the File Browser
+Right click the .jar file > Properties
+Click on the “Open With” tab along the top
+Change the bullet to be Sun Java 6 Runtime
+Click Close and you’re done.
+
+
+Any improvements and suggestions to the app is welcome. 
