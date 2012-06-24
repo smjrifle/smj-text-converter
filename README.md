@@ -11,7 +11,7 @@ You can add executable permission with this command [ chmod u+x "Smjrife Text Co
 
 If you want to open the file on double click, you can create a shell script.
 In any editor [vi, nano, gedit] add the following lines
-java -jar "Smjrife Text Converter.jar"
+java -jar "Smjrifle Text Converter.jar"
 Save it at tc.sh
 Change its permission chmod u+x tc.sh
 now you can double click the file tc.sh to execute it.
