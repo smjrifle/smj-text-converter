@@ -3,6 +3,8 @@ smj-text-converter
 
 Smjrifle Text Converter
 
+This is a simple text converter, that converts string to Ascii, Binary, octal, hex, Base64 and other hash algorithms. It can also be used to decode the text from the above formats.
+
 For Windows run the Smjrife Text Converter.jar
 
 For Linux you can run [ java -jar "Smjrifle Text Converter.jar" ] in the terminal. Make sure you have executable permission.
