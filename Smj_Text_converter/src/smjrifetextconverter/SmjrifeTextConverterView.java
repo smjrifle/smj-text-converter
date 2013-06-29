@@ -617,7 +617,7 @@ String c= jTextArea2.getText();
                 
             }
            byte[] MD5v=md.digest(bytesOfMessage);
-           byte[] MD2v=md.digest(bytesOfMessage);
+           byte[] MD2v=md2.digest(bytesOfMessage);
            StringBuffer sb= new StringBuffer();
            StringBuffer sb2= new StringBuffer();
            for(byte b : MD5v) {
@@ -860,13 +860,13 @@ String c= jTextArea2.getText();
          MessageDigest md = null;
          MessageDigest md2 = null;
             try {
-                md=MessageDigest.getInstance("MD5");
+                md=MessageDigest.getInstance("MD2");
                 md2=MessageDigest.getInstance("MD2");
             } catch (NoSuchAlgorithmException ex) {
 
             }
            byte[] MD5v=md.digest(bytesOfMessage);
-           byte[] MD2v=md.digest(bytesOfMessage);
+           byte[] MD2v=md2.digest(bytesOfMessage);
            StringBuffer sb= new StringBuffer();
            StringBuffer sb2= new StringBuffer();
            for(byte b : MD5v) {
